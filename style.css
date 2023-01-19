@@ -2,13 +2,32 @@ body {
     margin: 0 auto;
     color: yellow;
 }
-
+.main {
+    text-align: center;
+    size: 100px;
+}
 .topnav {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 10px;
 }
 
+.topnav a{
+    border: 2px solid black;
+    margin: auto center;
+    padding: 3px; 
+    background-color: black;
+    color: yellow;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    background-color: black;
+}
+    
 .chunk {
     background-image: url(./barberpic1.avif);
     font-size: 60px;
@@ -29,7 +48,7 @@ body {
 }
 .container {  display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.5fr 1.5fr 1.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 1.5fr 1.5fr 0.5fr;
     grid-auto-columns: 1fr;
     gap: 5px 5px;
     grid-auto-flow: row;
@@ -48,4 +67,6 @@ body {
   .spread { grid-area: spread; }
   
   .socials { grid-area: socials; }
+
+
   

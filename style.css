@@ -2,9 +2,12 @@ body {
     margin: 0 auto;
     color: yellow;
 }
+
+h1 {
+    size: 200px;
+}
 .main {
     text-align: center;
-    size: 100px;
 }
 .topnav {
     display: flex;

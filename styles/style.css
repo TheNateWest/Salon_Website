@@ -4,10 +4,11 @@ body {
 }
 
 h1 {
-    size: 200px;
+    size: 900px;
 }
 .main {
     text-align: center;
+    font-size: 70px;
 }
 .topnav {
     display: flex;

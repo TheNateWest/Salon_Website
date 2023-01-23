@@ -32,7 +32,8 @@ h1 {
 }
     
 .chunk {
-    background-image: url(./barberpic1.avif);
+    background-image: url(../images/barberpic1.avif);
+    background-repeat: no-repeat;
     font-size: 60px;
     display:flex;
     justify-content:center;

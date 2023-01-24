@@ -5,7 +5,9 @@ body {
 
 h1 {
     size: 900px;
+    text-align: center;
 }
+
 .main {
     text-align: center;
     font-size: 70px;
@@ -24,7 +26,23 @@ h1 {
     color: yellow;
 }
 
-.container{
+.chunk {
+    border: 5px solid blue;
+    margin: auto center;
+    padding: 300px;
+    font-size: 40px;
+    
+}
+
+.page {
+    border: 5px solid blue;
+    margin: auto center;
+    padding: 300px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,16 +50,21 @@ h1 {
     background-color: black;
 }
  
-.container {  display: grid;
+
+  .container {  display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 1.5fr 1.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 2fr .5fr;
     grid-auto-columns: 1fr;
     gap: 5px 5px;
     grid-auto-flow: row;
     grid-template-areas:
       "main"
       "topnav"
+      "page"
       "chunk"
-      "spread"
-      "socials";
+      "footer";
+  }
+
+  .footer {
+    padding-left: 50px;
   }

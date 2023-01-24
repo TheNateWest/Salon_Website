@@ -44,13 +44,13 @@ h1 {
 }
 
 .spread {
-    background-color: blue;
+    background-color: grey;
 
 }
 
-.socials {
+/* .footer {
     background-color: red;
-}
+} */
 .container {  display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 0.5fr 1.5fr 1.5fr 0.5fr;
@@ -62,7 +62,13 @@ h1 {
       "topnav"
       "chunk"
       "spread"
-      "socials";
+      "footer";
+  }
+
+  img {
+    max-width: 400px;
+    max-height: 400px;
+   
   }
   
   .main { grid-area: main; }

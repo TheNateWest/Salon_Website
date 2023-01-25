@@ -6,6 +6,10 @@ body {
 h1 {
     size: 900px;
 }
+
+a {
+    font-size: 27px;
+}
 .main {
     text-align: center;
     font-size: 70px;
@@ -44,7 +48,11 @@ h1 {
 }
 
 .spread {
-    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+
 
 }
 

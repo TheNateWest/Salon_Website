@@ -8,6 +8,10 @@ h1 {
     text-align: center;
 }
 
+a {
+    font-size: 27px;
+
+}
 .main {
     text-align: center;
     font-size: 70px;
@@ -27,7 +31,7 @@ h1 {
 }
 
 .chunk {
-    border: 5px solid blue;
+    border: 5px solid yellow;
     margin: auto center;
     padding: 300px;
     font-size: 40px;
@@ -35,7 +39,7 @@ h1 {
 }
 
 .page {
-    border: 5px solid blue;
+    border: 5px solid yellow;
     margin: auto center;
     padding: 300px;
     font-size: 40px;
@@ -53,7 +57,7 @@ h1 {
 
   .container {  display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 2fr .5fr;
+    grid-template-rows: 0.25fr 0.25fr 0.25fr 3.75fr .5fr;
     grid-auto-columns: 1fr;
     gap: 5px 5px;
     grid-auto-flow: row;
@@ -67,4 +71,5 @@ h1 {
 
   .footer {
     padding-left: 50px;
+    
   }

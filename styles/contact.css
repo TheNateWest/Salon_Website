@@ -6,6 +6,11 @@ body {
 h1 {
     size: 900px;
 }
+
+button {
+  
+    
+}
 .main {
     text-align: center;
     font-size: 70px;
@@ -34,7 +39,7 @@ h1 {
 
 .container {  display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 3fr .5fr;
+    grid-template-rows: 0.25fr 0.25fr 0.5fr 3.5fr .5fr;
     grid-auto-columns: 1fr;
     gap: 5px 5px;
     grid-auto-flow: row;

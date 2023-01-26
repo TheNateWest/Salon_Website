@@ -52,14 +52,20 @@ a {
 
 }
 
+.footer {
+    padding-left: 50px;
 
-.spread {
-    /* display: flex;
+  }
+
+
+/* .spread {
+    display: flex;
     justify-content: space-evenly;
     grid-auto-rows: minmax(200px, auto);
     background-color: black;
-    padding: 20px; */
-    /* grid-template-columns: repeat(2, 1fr); */
+    padding: 20px;
+} */
+    /* grid-template-columns: repeat(2, 1fr);
 
 
 }
@@ -115,7 +121,7 @@ a {
     }
 
     .spread {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 

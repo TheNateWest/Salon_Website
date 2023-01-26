@@ -29,16 +29,12 @@ a {
 }
 
 .container{
-    display: flex;
     justify-content: top;
     align-items: center;
     color: yellow;
     background-color: black;
-}
-
-.container {  display: grid;
+    display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.25fr 0.25fr 0.5fr 3.5fr .5fr;
     grid-auto-columns: 1fr;
     gap: 5px 5px;
     grid-auto-flow: row;
@@ -48,6 +44,13 @@ a {
       "page"
       "chunk"
       "footer";
+}
+
+.form-container { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .page {

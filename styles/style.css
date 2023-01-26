@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    size: 900px;
+    font-size: 90px;
 }
 
 a {
@@ -31,27 +31,35 @@ a {
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     color: yellow;
     background-color: black;
 }
     
 .chunk {
-    background-image: url(../images/barberpic1.avif);
+    /* border: 2px solid yellow; */
+    background-image: 
+    linear-gradient(to left, rgba(235, 236, 243, 0.52), rgba(10, 10, 10, 0.73)),
+    url(../images/hq1.avif);
+    width: fit-content;
+    /* height: 500px; */
     background-repeat: no-repeat;
     font-size: 60px;
     display:flex;
-    justify-content:center;
     align-items: center;
-    height: 800px;
+    /* align-items: center;
+    height: 800px; */
 
 }
 
+
 .spread {
-    display: flex;
+    /* display: flex;
     justify-content: space-evenly;
+    grid-auto-rows: minmax(200px, auto);
     background-color: black;
-    padding: 20px;
+    padding: 20px; */
+    /* grid-template-columns: repeat(2, 1fr); */
 
 
 }
@@ -86,6 +94,37 @@ a {
   .spread { grid-area: spread; }
   
   .socials { grid-area: socials; }
+
+  @media (max-width:800px){
+    .chunk {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .topnav {
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+    .page {
+        font-size: 20px;
+    }
+
+    .spread {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:400px){
+    .chunk {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
 
 
   

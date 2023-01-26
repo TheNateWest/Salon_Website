@@ -75,6 +75,11 @@ a {
     overflow: hidden;
 }
 
+.footer {
+    padding-left: 50px;
+    
+  }
+
 img {
     object-fit: cover;
     width: 100%;

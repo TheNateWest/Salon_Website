@@ -125,12 +125,12 @@ a {
     }
 }
 
-@media (max-width:400px){
+/* @media (max-width:400px){
     .chunk {
         grid-template-columns: repeat(1, 1fr);
     }
 
-}
+} */
 
 
   
